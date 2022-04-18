@@ -59,40 +59,52 @@ const Header = ({
                 {/* logo end */}
                 {/* Navigation Start */}
                 <ul className="main-menu">
-                  <li className="menu-item menu-item-has-children">
+                  <li className="menu-item">
+                    <Link href="/">Home</Link>
+                  </li>
+                  {/* <li className="menu-item menu-item-has-children">
                     <a href="#">Home</a>
                     <ul className="sub-menu">
                       <HomeMenu />
                     </ul>
+                  </li> */}
+                  <li className="menu-item">
+                    <Link href="/">My Process</Link>
                   </li>
                   <li className="menu-item menu-item-has-children">
-                    <a href="#">Pages</a>
+                    <a href="#">Services</a>
                     <ul className="sub-menu">
                       <PageMenu />
                     </ul>
                   </li>
-                  <li className="menu-item menu-item-has-children">
+                  <li className="menu-item">
+                    <Link href="/">Pricing</Link>
+                  </li>
+                  {/* <li className="menu-item menu-item-has-children">
                     <a href="#">Courses</a>
                     <ul className="sub-menu">
                       <CoursesMenu />
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="menu-item menu-item-has-children">
                     <a href="#">Blog</a>
                     <ul className="sub-menu">
                       <BlogMenu />
                     </ul>
                   </li>
-                  <li className="menu-item menu-item-has-children">
+                  <li className="menu-item">
+                    <Link href="/">About Me</Link>
+                  </li>
+                  {/* <li className="menu-item menu-item-has-children">
                     <a href="#">Portfolio</a>
                     <ul className="sub-menu">
                       <PortfolioMenu />
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="menu-item">
-                    <Link href="/contact">Contacts</Link>
+                    <Link href="/contact">Contact</Link>
                   </li>
-                  {!sideBar && (
+                  {/* {!sideBar && (
                     <li className="menu-item search_trigger">
                       <a
                         href="#"
@@ -104,10 +116,10 @@ const Header = ({
                         <i className="fas fa-search " />
                       </a>
                     </li>
-                  )}
+                  )} */}
                 </ul>
-                {/* Navigation Ens */}
-                {!sideBar && (
+                {/* Navigation Ends */}
+                {/* {!sideBar && (
                   <div className="head_actions">
                     <DefaultHeadActions />
                     <button
@@ -120,14 +132,21 @@ const Header = ({
                       <span />
                     </button>
                   </div>
-                )}
+                )} */}
                 {/* Head Actions */}
 
                 {/* Head Actions */}
               </nav>
               {sideBar && (
                 <div className="head_actions">
-                  <HeadActions setOpenSidebar={setOpenSidebar} />
+                  {/* <HeadActions setOpenSidebar={setOpenSidebar} /> */}
+                  <a
+                    className="thm-btn btn-small bg-thm-color-two thm-color-two-shadow btn-rounded mr-4 mb-4 wow fadeInRight"
+                    data-wow-delay=".50ms"
+                  >
+                    Schedule Free Call{" "}
+                    <i className="fal fa-chevron-right ml-2" />
+                  </a>
                   <button
                     type="button"
                     className="head_trigger mobile_trigger"

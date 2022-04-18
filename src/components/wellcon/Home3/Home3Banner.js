@@ -34,13 +34,13 @@ const Home3Banner = ({ blok }) => {
             <div className="col-lg-6">
               <div className="text_box">
                 <h1 className="title wow fadeInUp" data-wow-delay=".30ms">
-                  <span>{heading1}</span> {heading2}
+                  <span>{heading1}</span>
+                  <br /> {heading2}
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay=".40ms">
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accan tium doloremque laudantium totam rem aperiam
+                  {intro}
                 </p>
-                <Link href="/about-2">
+                <Link href="/">
                   <a
                     className="thm-btn bg-thm-color-two thm-color-two-shadow btn-rounded mr-4 mb-4 wow fadeInRight"
                     data-wow-delay=".50ms"
@@ -50,10 +50,10 @@ const Home3Banner = ({ blok }) => {
                 </Link>
                 <a
                   onClick={() => setVideo(true)}
-                  className="video_btn video_text popup-youtube mb-4  wow fadeInRight"
+                  className="video_btn video_text popup-youtube mb-4 wow fadeInRight"
                   data-wow-delay=".70ms"
                 >
-                  <i className="fas fa-play video_icon bg-thm-color-three" />
+                  <i className="fas fa-play video_icon bg-thm-color-one" />
                   <span>Watch Video</span>
                 </a>
               </div>

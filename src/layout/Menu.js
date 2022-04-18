@@ -16,34 +16,13 @@ export const HomeMenu = () => (
 export const PageMenu = () => (
   <Fragment>
     <li className="menu-item">
-      <Link href="/about">About Us</Link>
+      <Link href="/">Children Monthly Life Coaching</Link>
     </li>
     <li className="menu-item">
-      <Link href="/about-2">About Me</Link>
+      <Link href="/">Teen Monthly Life Coaching</Link>
     </li>
     <li className="menu-item">
-      <Link href="/events">Events</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/videos">Videos</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/services">Services</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/team">Team</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/team-details">Team Details</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/pricing">Pricing</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/testimonials">Testimonials</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/faqs">{`FAQ's`}</Link>
+      <Link href="/">Single Life Coaching Session</Link>
     </li>
   </Fragment>
 );
@@ -61,16 +40,13 @@ export const CoursesMenu = () => (
 export const BlogMenu = () => (
   <Fragment>
     <li className="menu-item">
-      <Link href="/blog-grid">Blog Grid</Link>
+      <Link href="/">Blog Category 1</Link>
     </li>
     <li className="menu-item">
-      <Link href="/blog-list">Blog List</Link>
+      <Link href="/">Blog Category 2</Link>
     </li>
     <li className="menu-item">
-      <Link href="/blog-masonry">Blog Masonry</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/blog-details">Blog Details</Link>
+      <Link href="/">Blog Category 3</Link>
     </li>
   </Fragment>
 );

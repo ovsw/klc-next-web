@@ -10,6 +10,8 @@
   "dependencies": {
     "@storyblok/react": "^1.0.0",
     "axios": "^0.26.0",
+    "easy-pie-chart": "^2.1.7",
+    "isotope-layout": "^3.0.6",
     "moment": "^2.29.1",
     "next": "12.1.0",
     "react": "17.0.2",

@@ -69,7 +69,7 @@
     --thm-b-font: 'Nunito Sans', sans-serif;
     /* Body font */
     --thm-color-one: #1b2336;
-    --thm-color-two: #4b83fb;
+    --thm-color-two: #F57D62;
     --thm-color-three: #65cfa9;
     --thm-color-four: #ffbd3f;
     --thm-color-five: #0c1634;
@@ -77,7 +77,8 @@
     --thm-color-light: #dadada;
     /*RGB Colors*/
     --thm-color-one-rgb: 27, 35, 54;
-    --thm-color-two-rgb: 75, 131, 251;
+    /* --thm-color-two-rgb: 75, 131, 251; */
+    --thm-color-two-rgb: 245, 125, 48;
     --thm-color-three-rgb: 101, 207, 169;
     --thm-color-four-rgb: 255, 189, 63;
     --thm-color-six-rgb: 255, 0, 48;

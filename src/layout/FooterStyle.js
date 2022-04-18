@@ -18,13 +18,17 @@ export const Footer1 = () => (
               </Link>
               <ul className="info">
                 <li>
-                  <a href="#">256 Elizaberth Ave Str, Brooklyn, CA, 90025</a>
+                  <a href="#">
+                    Mountain of Youth LLC.
+                    <br />
+                    2012 W Plum Rd Phoenix, Arizona 85085
+                  </a>
                 </li>
                 <li>
-                  <a href="tel:+01234567899">+012 (345) 678 99</a>
-                </li>
-                <li>
-                  <a href="mailto:example@example.com">example@example.com</a>
+                  <a href="tel:+01234567899">+012 (345) 678 99</a> <br />
+                  <a href="mailto:example@example.com">
+                    hello@climbkidslifecoaching.com
+                  </a>
                 </li>
               </ul>
               <ul className="social">
@@ -43,11 +47,11 @@ export const Footer1 = () => (
                     <i className="fab fa-linkedin" />
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">
                     <i className="fab fa-behance" />
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#">
                     <i className="fab fa-youtube" />
@@ -58,22 +62,16 @@ export const Footer1 = () => (
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="ft_widget ft_menu wow fadeInUp">
-              <h6 className="ft-title">Our Coach</h6>
+              <h6 className="ft-title">Coaching Services</h6>
               <ul>
                 <li>
-                  <a href="#">Basic Life Coach</a>
+                  <a href="#">The Journey</a>
                 </li>
                 <li>
-                  <a href="#">Advance Helath Coach</a>
+                  <a href="#">Pricing</a>
                 </li>
                 <li>
-                  <a href="#">Advance Business Coach</a>
-                </li>
-                <li>
-                  <a href="#">Basic Learn English</a>
-                </li>
-                <li>
-                  <a href="#">Web Development</a>
+                  <a href="#">Schedule Free Call</a>
                 </li>
               </ul>
             </div>
@@ -83,27 +81,32 @@ export const Footer1 = () => (
               <h6 className="ft-title">About Us</h6>
               <ul>
                 <li>
-                  <a href="#">Latest Courses</a>
+                  <a href="#">Our Story</a>
                 </li>
                 <li>
                   <a href="#">Mission &amp; Vision</a>
                 </li>
                 <li>
-                  <a href="#">Our Approach</a>
-                </li>
-                <li>
-                  <a href="#">Exclusive Advisors</a>
-                </li>
-                <li>
-                  <a href="#">Join a Career</a>
+                  <a href="#">Blog</a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
-            <div className="ft_widget ft_apps wow fadeInUp">
-              <h6 className="ft-title">Apps Download</h6>
-              <p className="mb-xl-20">
+            <div className="ft_widget ft_menu wow fadeInUp">
+              <h6 className="ft-title">Legal</h6>
+              <ul>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Accessibility Policy</a>
+                </li>
+              </ul>
+              {/* <p className="mb-xl-20">
                 Sed ut perspici unde omnis iste natus error sit voluptatem accus
               </p>
               <a href="#" className="app_img">
@@ -111,14 +114,15 @@ export const Footer1 = () => (
               </a>
               <a href="#" className="app_img">
                 <img src="assets/images/apple_store.jpg" alt="img" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
       </div>
       <div className="footer_bottom">
         <p className="mb-0">
-          © 2021 <a href="#">Wellco</a>. All Rights Reserved, Design By Webtend
+          © 2022 <a href="#">Mountain of Youth LLC.</a>. All Rights Reserved.{" "}
+          Website by <a href="https://studiorovst.com">Studio Rovst</a>
         </p>
       </div>
     </div>

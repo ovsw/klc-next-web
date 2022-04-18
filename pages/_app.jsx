@@ -1,6 +1,8 @@
 import { storyblokInit, apiPlugin } from "@storyblok/react";
 import Head from "next/head";
 
+import Layout from "../src/layout/Layout";
+
 import Teaser from "../src/components/teaser";
 import Grid from "../src/components/grid";
 import Page from "../src/components/page";
@@ -26,13 +28,13 @@ storyblokInit({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <Layout noHeaderTop sideBar headerStyle={1} absolute footerStyle={1}>
       <Head>
-        <title>Wellco UpSkill React NextJs Template</title>
+        <title>Climb Kids Life Coaching</title>
         <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico" />
       </Head>
       <Component {...pageProps} />
-    </>
+    </Layout>
   );
 }
 
