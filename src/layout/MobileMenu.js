@@ -30,48 +30,50 @@ const MobileMenu = ({ closeMobileMenu, showMobileMenu }) => {
         {/* Menu */}
         <nav>
           <ul className="main-menu">
-            <li className="menu-item menu-item-has-children">
-              <a href="#" onClick={() => activeFun("Home")}>
-                Home
-              </a>
-              <ul className="sub-menu" style={activeLi("Home")}>
-                <HomeMenu />
-              </ul>
+            <li className="menu-item">
+              <Link href="/">Home</Link>
+            </li>
+            {/* <li className="menu-item menu-item-has-children">
+                    <a href="#">Home</a>
+                    <ul className="sub-menu">
+                      <HomeMenu />
+                    </ul>
+                  </li> */}
+            <li className="menu-item">
+              <Link href="/">My Process</Link>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" onClick={() => activeFun("Pages")}>
-                Pages
-              </a>
-              <ul className="sub-menu" style={activeLi("Pages")}>
+              <a href="#">Services</a>
+              <ul className="sub-menu">
                 <PageMenu />
               </ul>
             </li>
-            <li className="menu-item menu-item-has-children">
-              <a href="#" onClick={() => activeFun("Courses")}>
-                Courses
-              </a>
-              <ul className="sub-menu" style={activeLi("Courses")}>
-                <CoursesMenu />
-              </ul>
+            <li className="menu-item">
+              <Link href="/">Pricing</Link>
             </li>
+            {/* <li className="menu-item menu-item-has-children">
+                    <a href="#">Courses</a>
+                    <ul className="sub-menu">
+                      <CoursesMenu />
+                    </ul>
+                  </li> */}
             <li className="menu-item menu-item-has-children">
-              <a href="#" onClick={() => activeFun("Blog")}>
-                Blog
-              </a>
-              <ul className="sub-menu" style={activeLi("Blog")}>
+              <a href="#">Blog</a>
+              <ul className="sub-menu">
                 <BlogMenu />
               </ul>
             </li>
-            <li className="menu-item menu-item-has-children">
-              <a href="#" onClick={() => activeFun("Portfolio")}>
-                Portfolio
-              </a>
-              <ul className="sub-menu" style={activeLi("Portfolio")}>
-                <PortfolioMenu />
-              </ul>
-            </li>
             <li className="menu-item">
-              <Link href="/contact">Contacts</Link>
+              <Link href="/">About Me</Link>
+            </li>
+            {/* <li className="menu-item menu-item-has-children">
+                    <a href="#">Portfolio</a>
+                    <ul className="sub-menu">
+                      <PortfolioMenu />
+                    </ul>
+                  </li> */}
+            <li className="menu-item">
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
