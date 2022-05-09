@@ -1,4 +1,6 @@
-const Home3About = () => {
+const Home3About = ({ blok }) => {
+  const { eyebrow_text, heading_text, intro_text, main_image } = blok;
+
   return (
     <section className="section-padding pt-0 about">
       <div className="container">
@@ -21,13 +23,10 @@ const Home3About = () => {
             <div className="section-title left-align wow fadeInUp">
               <p className="subtitle">
                 <i className="fal fa-book" />
-                What We Provide
+                {eyebrow_text || "Eyebrow text goes here"}
               </p>
-              <h3 className="title">We Care About Your Life For Better.</h3>
-              <p>
-                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                esse quam nihil molestiae consequatue velillum{" "}
-              </p>
+              <h3 className="title">{heading_text || "Heading goes here"}</h3>
+              <p>{intro_text || "intro text goes here"} </p>
             </div>
             <ul className="about_list">
               <li className=" wow fadeInDown">
@@ -39,7 +38,7 @@ const Home3About = () => {
                   />
                 </div>
                 <div className="text">
-                  <h6 className="mb-2">Master Certified Coach</h6>
+                  <h6 className="mb-2">Certified Coach</h6>
                   <p className="mb-0">
                     Quis autem vel eum iure reprehenderit quein ea voluptate
                     velit esse quam

@@ -10,9 +10,7 @@ const Home1Blog = () => {
                 <i className="fal fa-book" />
                 News &amp; Blog
               </p>
-              <h3 className="title">
-                Get Every Coach News Articles &amp; Tips
-              </h3>
+              <h3 className="title">Get Coaching News, Articles &amp; Tips</h3>
             </div>
           </div>
         </div>

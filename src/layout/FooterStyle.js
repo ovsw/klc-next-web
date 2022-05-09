@@ -159,13 +159,15 @@ export const Footer2 = () => (
               </Link>
               <ul className="info">
                 <li>
-                  <a href="#">256 Elizaberth Ave Str, Brooklyn, CA, 90025</a>
+                  <a href="#"> 2012 W Plum Rd Phoenix, Arizona 85085</a>
                 </li>
                 <li>
                   <a href="tel:+01234567899">+012 (345) 678 99</a>
                 </li>
                 <li>
-                  <a href="mailto:example@example.com">example@example.com</a>
+                  <a href="mailto:example@example.com">
+                    hello@climbkidslifecoaching.com
+                  </a>
                 </li>
               </ul>
               <ul className="social">
@@ -199,29 +201,29 @@ export const Footer2 = () => (
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="ft_widget ft_menu wow fadeInUp">
-              <h6 className="ft-title">Our Coach</h6>
+              <h6 className="ft-title">About Us</h6>
               <ul>
                 <li>
-                  <a href="#">Basic Life Coach</a>
+                  <a href="#">The Journey</a>
                 </li>
                 <li>
-                  <a href="#">Advance Helath Coach</a>
+                  <a href="#">Pricing</a>
                 </li>
                 <li>
-                  <a href="#">Advance Business Coach</a>
+                  <a href="#">Schedule Free Call</a>
                 </li>
                 <li>
-                  <a href="#">Basic Learn English</a>
+                  <a href="#">Our Story</a>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="#">Blog</a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="ft_widget ft_menu wow fadeInDown">
-              <h6 className="ft-title">About Us</h6>
+              <h6 className="ft-title">Services</h6>
               <ul>
                 <li>
                   <a href="#">Latest Courses</a>

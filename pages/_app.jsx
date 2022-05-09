@@ -12,6 +12,9 @@ import Home1Banner from "../src/components/wellcon/Home1/Home1Banner";
 import Home2Banner from "../src/components/wellcon/Home2/Home2Banner";
 import Home3Banner from "../src/components/wellcon/Home3/Home3Banner";
 
+import StepsCustom from "../src/components/steps-custom";
+import Home3About from "../src/components/wellcon/Home3/Home3About";
+
 import "../styles/globals.css";
 
 storyblokInit({
@@ -19,6 +22,8 @@ storyblokInit({
   use: [apiPlugin],
   components: {
     "hp-hero": Home3Banner,
+    "steps-section": StepsCustom,
+    "about-section": Home3About,
     teaser: Teaser,
     grid: Grid,
     feature: Feature,

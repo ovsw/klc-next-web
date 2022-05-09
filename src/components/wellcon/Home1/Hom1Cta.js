@@ -4,11 +4,11 @@ const Hom1Cta = () => {
     <div className="cta_box style_2">
       <div className="container relative z-2">
         <div className="bg-thm-color-two cta_box_inner z-2 mb-negative">
-          <img
+          {/* <img
             src="assets/images/elements/shape.png"
             alt="shape"
             className="shape_1 zoom-fade"
-          />
+          /> */}
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
               <div className="text_block wow fadeInLeft">
@@ -22,7 +22,8 @@ const Hom1Cta = () => {
                   </h3>
                   <Link href="/contact">
                     <a className="thm-btn bg-thm-color-three thm-color-three-shadow btn-rectangle">
-                      Contact Us <i className="fal fa-chevron-right ml-2" />
+                      Schedule Free Call{" "}
+                      <i className="fal fa-chevron-right ml-2" />
                     </a>
                   </Link>
                 </div>
@@ -40,24 +41,24 @@ const Hom1Cta = () => {
                   alt="img"
                   className="image-fit"
                 />
-                <div className="arrows slideRight">
+                {/* <div className="arrows slideRight">
                   <div className="arrow" />
                   <div className="arrow" />
                   <div className="arrow" />
                   <div className="arrow" />
                   <div className="arrow" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
-        <div className="arrows to_up slideTop">
+        {/* <div className="arrows to_up slideTop">
           <div className="arrow" />
           <div className="arrow" />
           <div className="arrow" />
           <div className="arrow" />
           <div className="arrow" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
