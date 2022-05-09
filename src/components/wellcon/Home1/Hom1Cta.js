@@ -15,10 +15,10 @@ const Hom1Cta = () => {
                 <div className="section-title left-align white">
                   <p className="subtitle">
                     <i className="fal fa-book" />
-                    Our Professionals
+                    Let's talk
                   </p>
                   <h3 className="title">
-                    Do You Want to Transform Your Life For Better ?
+                    Book a free 20 min Meet & Greet Session
                   </h3>
                   <Link href="/contact">
                     <a className="thm-btn bg-thm-color-three thm-color-three-shadow btn-rectangle">
