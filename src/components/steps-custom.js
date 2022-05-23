@@ -10,9 +10,24 @@ const StepsCustom = ({ blok }) => {
             <div className="section-title wow fadeInDown">
               <p className="subtitle">
                 <i className="fal fa-book" />
-                How it works
+                My 4 Step Framework for
               </p>
-              <h3 className="title">My 4-step method</h3>
+              <h3 className="title">A customized Approach</h3>
+              {/* <p>
+                📆 &middot; 🗣 &middot; 📋 &middot; 🛑 &middot; 🏆 &middot; 📩
+                &middot; 📞
+              </p> */}
+              {/* <p>
+                We meet weekly 📆 and discuss 🗣 how you are doing according to
+                your plan 📋 and address any obstacles 🛑 and blocks to your
+                achievement 🏆. Between meetings, we keep in touch by 📩 email
+                and phone 📞.
+              </p> */}
+              <p>
+                We meet weekly and discuss how you are doing according to your
+                plan and address any obstacles and blocks to your achievement.
+                Between meetings, we keep in touch by email and phone.
+              </p>
             </div>
           </div>
         </div>
@@ -111,7 +126,7 @@ const StepsCustom = ({ blok }) => {
           </div> */}
         </div>
         {/* </PaginationLayout> */}
-        <div
+        {/* <div
           className="row mb-4"
           style={{
             display: "flex",
@@ -124,7 +139,7 @@ const StepsCustom = ({ blok }) => {
               Details on my method <i className="fal fa-chevron-right ml-2" />
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

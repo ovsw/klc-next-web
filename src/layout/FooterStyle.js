@@ -134,7 +134,7 @@ export const Footer2 = () => (
     style={{ backgroundImage: "url(assets/images/elements/element_15.png)" }}
   >
     <img
-      src="assets/images/elements/element_13.png"
+      src="assets/images/elements/element_13_customized.png"
       className="element_1"
       alt="Element"
     />

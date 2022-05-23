@@ -6,6 +6,7 @@ import {
 
 import Home1Blog from "../src/components/wellcon/Home1/Home1Blog";
 import Home1Cta from "../src/components/wellcon/Home1/Hom1Cta";
+import PricingSection from "../src/components/Pricing";
 import Hom1Cta from "../src/components/wellcon/Home1/Hom1Cta";
 
 export default function Home({ story: initialStory }) {
@@ -24,6 +25,7 @@ export default function Home({ story: initialStory }) {
           paddingTop: "10rem",
         }}
       ></div>
+      <PricingSection />
       <Home1Blog />
     </>
   );

@@ -1,4 +1,5 @@
 import Link from "next/dist/client/link";
+import { BaseNextRequest } from "next/dist/server/base-http";
 const Home2Why = () => {
   return (
     <section className="section-padding pt-0 about">
@@ -8,23 +9,42 @@ const Home2Why = () => {
             <div className="section-title left-align wow fadeInDown">
               <p className="subtitle">
                 <i className="fal fa-book" />
-                What We Offer
+                Program
               </p>
-              <h3 className="title">People Why Choose Our Coachs</h3>
+              <h3 className="title">What We Work On</h3>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium totam remaperiam eaque ipsa
-                quae abillo inventore veritatis quasi architecto
+                Each child is unique and so I make a point of getting to know
+                their individual personality, context and circumsntances to
+                provide the best support possible.
               </p>
               <p>
-                Accusantium doloremque laudantium totam rem aperiam eaque ipsa
-                quae abillo inventore veritatis architecto
+                During our sessions, we'll work on defining and clarifying your
+                child's goals, needs, vision or career options. Later on we'll
+                also be tracking and reviewing their life strategies, actions
+                and progress.
               </p>
               <Link href="/about">
                 <a className="thm-btn bg-thm-color-three thm-color-three-shadow btn-rounded">
-                  Learn More <i className="fal fa-chevron-right ml-2" />
+                  Details on my Method{" "}
+                  <i className="fal fa-chevron-right ml-2" />
                 </a>
               </Link>
+
+              <div
+                className="row mb-4"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginTop: "1.5rem",
+                }}
+              >
+                <Link href="/contact">
+                  <a className="thm-btn bg-thm-color-two thm-color-two-shadow btn-rounded">
+                    Pricing Info
+                    <i className="fal fa-chevron-right ml-2" />
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
@@ -32,48 +52,52 @@ const Home2Why = () => {
               <li className="wow fadeInUp" data-wow-delay=".2s">
                 <i className="icon fal fa-check" />
                 <div className="text">
-                  <h6 className="mb-0">We Teach You How To Coach Yourself</h6>
+                  <h6 className="mb-0">Positive Self Talk &amp; Motivation</h6>
                 </div>
-                <img
+                {/* <img
                   src="assets/images/whyus_bg.jpg"
                   alt="img"
                   className="image-fit"
-                />
+                /> */}
               </li>
               <li className="wow fadeInDown" data-wow-delay=".35s">
                 <i className="icon fal fa-check" />
                 <div className="text">
-                  <h6 className="mb-0">We Teach You How To Feel Better</h6>
+                  <h6 className="mb-0">
+                    Goal Setting &amp; <br /> Building Healthy Habits
+                  </h6>
                 </div>
-                <img
+                {/* <img
                   src="assets/images/whyus_bg.jpg"
                   alt="img"
                   className="image-fit"
-                />
+                /> */}
               </li>
               <li className="wow fadeInUp" data-wow-delay=".40s">
                 <i className="icon fal fa-check" />
                 <div className="text">
-                  <h6 className="mb-0">We Teach You How To Take Massive</h6>
+                  <h6 className="mb-0">
+                    Leadership Skills &amp; Building Self Confidence
+                  </h6>
                 </div>
-                <img
+                {/* <img
                   src="assets/images/whyus_bg.jpg"
                   alt="img"
                   className="image-fit"
-                />
+                /> */}
               </li>
               <li className="wow fadeInDown" data-wow-delay=".5s">
                 <i className="icon fal fa-check" />
                 <div className="text">
                   <h6 className="mb-0">
-                    We Teach You How To Transform Your Life
+                    Powerful Mindset &amp; <br /> Gratitude
                   </h6>
                 </div>
-                <img
+                {/* <img
                   src="assets/images/whyus_bg.jpg"
                   alt="img"
                   className="image-fit"
-                />
+                /> */}
               </li>
             </ul>
           </div>
